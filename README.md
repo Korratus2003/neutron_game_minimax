@@ -105,6 +105,7 @@ def evaluate(state, maximizing_player):
 ```
 
 Ta prosta funkcja heurystyczna ocenia tylko **poziom neutronu**, co jest skuteczne przy ograniczonej głębokości, ale nie uwzględnia pozycji pionków.
+
 **Uwaga** Jeżeli istnieje więcej ruchów z wyliczoną taką samą oceną, to algorytm wybiera ruch z pierwszym wystąpieniem tej oceny
 
 ---
